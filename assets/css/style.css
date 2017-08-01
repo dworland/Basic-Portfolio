@@ -1,0 +1,167 @@
+body {
+	margin: 0 auto;
+	background-image: url("assets/images/cloth.png");
+}
+
+
+h1 {
+	margin: 0px 0px 0px 100px;
+	float: left;
+	color: white;
+	font-size: 23px;
+	padding: 25px;
+	background-color: #4AAAA5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+nav {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	float: right;
+	margin-top: 25px;
+	margin-right: 210px;
+}
+
+h2 {
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #4AAAA5;
+	padding-bottom: 5px;
+	border-bottom: solid 2px #DDDDDD;
+}
+
+h3 {
+	border-bottom: solid 2px #DDDDDD;
+	color: #4AAAA5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+a {
+	padding: 5px;
+	color: #777777;
+	text-decoration: none;
+}
+
+input {
+	width: 100%;
+}
+
+form {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: ;
+}
+
+textarea {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #666666
+}
+
+.header {
+	position: relative;
+	border-bottom: 2px solid #DDDDDD;
+}
+
+.navigation {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.container {
+	background-color: powderblue;
+}
+
+.container1 {
+	width: 650px;
+	float: left;
+	backgrou
+}
+
+.container2 {
+	width: 270px;
+	float: right;
+	margin-right: 300px;
+}
+
+.about-me {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	background-color: white;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 1px;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 15px;
+}
+
+.contact-form {
+	display: block;
+	width: 650px;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 1px;
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 15px;
+}
+
+.portfolio {
+	width: 650px;
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 1px;
+	background-color: white;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-right: 15px;
+}
+
+.connect {
+	border-style: solid;
+	border-color: #DDDDDD;
+	border-width: 1px;
+	text-align: center;
+	padding: 0px 25px 25px 25px;
+	margin-top: 30px;
+	margin-left: 15px;
+	background-color: white;
+}
+
+.social {
+	height: 60px;
+}
+
+.footertext {
+	color: white;
+	text-align: center;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	font-size: 12px;
+	padding: 20px;
+	border-top: 5px solid #4AAAA5;
+}
+
+.bio-image {
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+
+.clearfix {
+	content: '';
+	clear: both;
+	overflow: auto;
+}
