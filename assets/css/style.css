@@ -34,7 +34,7 @@ h3 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
 
-a {
+.navtext {
 	padding: 5px;
 	color: #777777;
 	text-decoration: none;
@@ -55,6 +55,7 @@ textarea {
 	width: 100%;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	border-color: #DDDDDD;
 }
 
 input[type=submit] {
@@ -86,6 +87,7 @@ footer {
 }
 
 .container {
+	height: 100%;
 	background-image: url("../images/cloth.png");
 }
 
@@ -100,6 +102,11 @@ footer {
 	margin-right: 450px;
 }
 
+.flex-center{    
+    display: flex;
+    justify-content: space-around;
+}
+
 .about-me {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #777777;
@@ -107,6 +114,11 @@ footer {
 	border: 1px solid #DDDDDD;
 	padding: 15px 25px 0px 25px;
 	margin: 30px 15px 0px 100px;
+}
+
+.bio-image {
+	padding-right: 15px;
+	padding-bottom: 5px;
 }
 
 .contact-form {
@@ -124,6 +136,37 @@ footer {
 	margin: 30px 15px 0px 100px;
 }
 
+.portfolio-image {
+	height: 100px;
+	padding: 10px;
+}
+
+.row {
+	box-sizing:border-box;
+    display:inline-block;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+}
+
+span {
+	position: absolute;
+	left: 0;
+	top: 85px;
+	width: 180px;
+	margin-left: ;
+}
+
+.imagetext {
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: white;
+	background-color: #4AAAA5;
+	padding: 10px;
+	text-align: center;
+}
+
 .connect {
 	border: 1px solid #DDDDDD;
 	padding: 0px 25px 25px 25px;
@@ -132,7 +175,7 @@ footer {
 	background-color: white;
 }
 
-.social {
+.social-icons {
 	height: 60px;
 	text-align: center;
 }
@@ -144,11 +187,6 @@ footer {
 	font-size: 12px;
 	padding: 20px;
 	border-top: 5px solid #4AAAA5;
-}
-
-.bio-image {
-	padding-right: 15px;
-	padding-bottom: 5px;
 }
 
 .clearfix {
